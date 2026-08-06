@@ -1,0 +1,680 @@
+[
+    {
+        "name": "iPhone 15 Pro",
+        "slug": "iphone-15-pro",
+        "category": "Mobile Phones",
+        "description": "Apple flagship smartphone with A17 chip",
+        "price": "1200",
+        "discount_price": "1100",
+        "stock": 15,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Color", "value": "Black" },
+            { "attribute": "Storage", "value": "256GB" }
+        ]
+    },
+    {
+        "name": "Samsung Galaxy S24 Ultra",
+        "slug": "galaxy-s24-ultra",
+        "category": "Mobile Phones",
+        "description": "Samsung flagship smartphone with AI features",
+        "price": "1400",
+        "discount_price": "1300",
+        "stock": 20,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Color", "value": "Titanium Gray" },
+            { "attribute": "Storage", "value": "512GB" }
+        ]
+    },
+    {
+        "name": "Xiaomi 14 Pro",
+        "slug": "xiaomi-14-pro",
+        "category": "Mobile Phones",
+        "description": "High-end Xiaomi smartphone",
+        "price": "900",
+        "discount_price": "850",
+        "stock": 30,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Color", "value": "Green" },
+            { "attribute": "Storage", "value": "256GB" }
+        ]
+    },
+
+    {
+        "name": "MacBook Pro M3",
+        "slug": "macbook-pro-m3",
+        "category": "Laptops",
+        "description": "Apple MacBook Pro with M3 chip",
+        "price": "2500",
+        "discount_price": null,
+        "stock": 8,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "RAM", "value": "16GB" },
+            { "attribute": "Storage", "value": "512GB" }
+        ]
+    },
+    {
+        "name": "Dell XPS 15",
+        "slug": "dell-xps-15",
+        "category": "Laptops",
+        "description": "Premium ultrabook with stunning display",
+        "price": "1800",
+        "discount_price": "1700",
+        "stock": 12,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "RAM", "value": "16GB" },
+            { "attribute": "Storage", "value": "1TB" }
+        ]
+    },
+    {
+        "name": "Asus ROG Strix G16",
+        "slug": "rog-strix-g16",
+        "category": "Gaming Laptops",
+        "description": "High-performance gaming laptop",
+        "price": "2200",
+        "discount_price": "2100",
+        "stock": 10,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "RAM", "value": "32GB" },
+            { "attribute": "GPU", "value": "RTX 4080" }
+        ]
+    },
+
+    {
+        "name": "iPad Pro 12.9",
+        "slug": "ipad-pro-12-9",
+        "category": "Tablets",
+        "description": "Apple iPad Pro with M2 chip",
+        "price": "1300",
+        "discount_price": "1250",
+        "stock": 25,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Storage", "value": "256GB" },
+            { "attribute": "Screen Size", "value": "12.9 inch" }
+        ]
+    },
+    {
+        "name": "Samsung Galaxy Tab S9",
+        "slug": "galaxy-tab-s9",
+        "category": "Tablets",
+        "description": "Premium Android tablet",
+        "price": "1100",
+        "discount_price": "1050",
+        "stock": 18,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Storage", "value": "128GB" },
+            { "attribute": "Screen Size", "value": "11 inch" }
+        ]
+    },
+
+    {
+        "name": "Apple Watch Series 9",
+        "slug": "apple-watch-9",
+        "category": "Smart Watches",
+        "description": "Latest Apple smartwatch",
+        "price": "450",
+        "discount_price": "420",
+        "stock": 40,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Color", "value": "Silver" },
+            { "attribute": "Size", "value": "45mm" }
+        ]
+    },
+    {
+        "name": "Samsung Galaxy Watch 6",
+        "slug": "galaxy-watch-6",
+        "category": "Smart Watches",
+        "description": "Samsung smartwatch with health tracking",
+        "price": "350",
+        "discount_price": "330",
+        "stock": 35,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Color", "value": "Black" },
+            { "attribute": "Size", "value": "44mm" }
+        ]
+    },
+    {
+        "name": "Face Moisturizer",
+        "slug": "face-moisturizer",
+        "category": "Skincare",
+        "description": "Hydrating face cream for dry skin",
+        "price": "30",
+        "discount_price": "25",
+        "stock": 120,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Skin Type", "value": "Dry" }
+        ]
+    },
+    {
+        "name": "Hair Shampoo",
+        "slug": "hair-shampoo",
+        "category": "Hair Care",
+        "description": "Anti-dandruff shampoo with zinc formula",
+        "price": "15",
+        "discount_price": "12",
+        "stock": 180,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Ingredients", "value": "Zinc" }
+        ]
+    },
+    {
+        "name": "Matte Lipstick",
+        "slug": "matte-lipstick",
+        "category": "Makeup",
+        "description": "Long-lasting matte lipstick",
+        "price": "22",
+        "discount_price": "18",
+        "stock": 90,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Color", "value": "Red" }
+        ]
+    },
+
+    {
+        "name": "Camping Tent",
+        "slug": "camping-tent",
+        "category": "Camping",
+        "description": "Waterproof camping tent for 4 people",
+        "price": "150",
+        "discount_price": "140",
+        "stock": 40,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Capacity", "value": "4 Person" }
+        ]
+    },
+    {
+        "name": "Yoga Mat",
+        "slug": "yoga-mat",
+        "category": "Fitness Equipment",
+        "description": "Non-slip yoga mat with extra cushioning",
+        "price": "35",
+        "discount_price": "30",
+        "stock": 90,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Color", "value": "Purple" }
+        ]
+    },
+    {
+        "name": "Mountain Bike Helmet",
+        "slug": "mountain-bike-helmet",
+        "category": "Cycling",
+        "description": "Durable helmet for mountain biking",
+        "price": "60",
+        "discount_price": "55",
+        "stock": 50,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Size", "value": "M" }
+        ]
+    },
+
+    {
+        "name": "LEGO City Set",
+        "slug": "lego-city-set",
+        "category": "Educational Toys",
+        "description": "LEGO building set for kids",
+        "price": "80",
+        "discount_price": "75",
+        "stock": 60,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Age Group", "value": "6+" }
+        ]
+    },
+    {
+        "name": "Chess Board",
+        "slug": "chess-board",
+        "category": "Board Games",
+        "description": "Wooden chess board with carved pieces",
+        "price": "45",
+        "discount_price": "40",
+        "stock": 70,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Material", "value": "Wood" }
+        ]
+    },
+
+    {
+        "name": "Car Phone Holder",
+        "slug": "car-phone-holder",
+        "category": "Car Accessories",
+        "description": "Universal phone holder for cars",
+        "price": "20",
+        "discount_price": "15",
+        "stock": 150,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Brand", "value": "Baseus" }
+        ]
+    },
+    {
+        "name": "Motorcycle Gloves",
+        "slug": "motorcycle-gloves",
+        "category": "Motorcycle Accessories",
+        "description": "Protective gloves for motorcycle riding",
+        "price": "35",
+        "discount_price": "30",
+        "stock": 85,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Material", "value": "Leather" }
+        ]
+    },
+    {
+        "name": "Gaming Chair Pro",
+        "slug": "gaming-chair-pro",
+        "category": "Accessories",
+        "description": "Ergonomic gaming chair with adjustable armrests",
+        "price": "250",
+        "discount_price": "230",
+        "stock": 40,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Material", "value": "Leather" },
+            { "attribute": "Color", "value": "Black" }
+        ]
+    },
+    {
+        "name": "4K Action Camera",
+        "slug": "4k-action-camera",
+        "category": "Cameras",
+        "description": "Waterproof 4K action camera for outdoor sports",
+        "price": "180",
+        "discount_price": "160",
+        "stock": 55,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Brand", "value": "GoPro" }
+        ]
+    },
+    {
+        "name": "Bluetooth Speaker Mini",
+        "slug": "bluetooth-speaker-mini",
+        "category": "Audio Accessories",
+        "description": "Portable mini Bluetooth speaker",
+        "price": "45",
+        "discount_price": "40",
+        "stock": 120,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Color", "value": "Blue" }
+        ]
+    },
+
+    {
+        "name": "Air Purifier Home",
+        "slug": "air-purifier-home",
+        "category": "Home Appliances",
+        "description": "HEPA air purifier for home use",
+        "price": "220",
+        "discount_price": "200",
+        "stock": 30,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Capacity", "value": "60m²" },
+            { "attribute": "Energy Efficiency", "value": "A+" }
+        ]
+    },
+    {
+        "name": "Smart Vacuum Cleaner",
+        "slug": "smart-vacuum-cleaner",
+        "category": "Home Appliances",
+        "description": "Robot vacuum cleaner with smart navigation",
+        "price": "350",
+        "discount_price": "330",
+        "stock": 25,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Brand", "value": "Xiaomi" }
+        ]
+    },
+    {
+        "name": "Electric Kettle Steel",
+        "slug": "electric-kettle-steel",
+        "category": "Kitchen Appliances",
+        "description": "Stainless steel electric kettle",
+        "price": "40",
+        "discount_price": "35",
+        "stock": 90,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Material", "value": "Steel" }
+        ]
+    },
+
+    {
+        "name": "Men's Hoodie Classic",
+        "slug": "mens-hoodie-classic",
+        "category": "Men's Clothing",
+        "description": "Warm cotton hoodie for men",
+        "price": "45",
+        "discount_price": "40",
+        "stock": 140,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Size", "value": "XL" },
+            { "attribute": "Color", "value": "Gray" }
+        ]
+    },
+    {
+        "name": "Women's Summer Dress",
+        "slug": "womens-summer-dress",
+        "category": "Women's Clothing",
+        "description": "Lightweight floral summer dress",
+        "price": "55",
+        "discount_price": "48",
+        "stock": 110,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Size", "value": "S" },
+            { "attribute": "Color", "value": "Yellow" }
+        ]
+    },
+
+    {
+        "name": "Kids Sneakers",
+        "slug": "kids-sneakers",
+        "category": "Kids Clothing",
+        "description": "Comfortable sneakers for kids",
+        "price": "35",
+        "discount_price": "30",
+        "stock": 130,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Size", "value": "30" },
+            { "attribute": "Color", "value": "Red" }
+        ]
+    },
+    {
+        "name": "Men's Formal Shoes",
+        "slug": "mens-formal-shoes",
+        "category": "Men's Shoes",
+        "description": "Elegant leather formal shoes",
+        "price": "95",
+        "discount_price": "85",
+        "stock": 60,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Material", "value": "Leather" },
+            { "attribute": "Size", "value": "43" }
+        ]
+    },
+    {
+        "name": "Google Pixel 8 Pro",
+        "slug": "google-pixel-8-pro",
+        "category": "Mobile Phones",
+        "description": "Google flagship smartphone with AI camera",
+        "price": "1150",
+        "discount_price": "1080",
+        "stock": 22,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Color", "value": "Blue" },
+            { "attribute": "Storage", "value": "256GB" }
+        ]
+    },
+    {
+        "name": "OnePlus 12",
+        "slug": "oneplus-12",
+        "category": "Mobile Phones",
+        "description": "High-performance OnePlus smartphone",
+        "price": "980",
+        "discount_price": "930",
+        "stock": 28,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Color", "value": "Green" },
+            { "attribute": "Storage", "value": "512GB" }
+        ]
+    },
+
+    {
+        "name": "HP Spectre x360",
+        "slug": "hp-spectre-x360",
+        "category": "Laptops",
+        "description": "Premium convertible ultrabook",
+        "price": "1600",
+        "discount_price": "1500",
+        "stock": 14,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "RAM", "value": "16GB" },
+            { "attribute": "Storage", "value": "1TB" }
+        ]
+    },
+    {
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "slug": "thinkpad-x1-carbon",
+        "category": "Business Laptops",
+        "description": "Lightweight business laptop",
+        "price": "1700",
+        "discount_price": "1650",
+        "stock": 10,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "RAM", "value": "16GB" },
+            { "attribute": "Storage", "value": "512GB" }
+        ]
+    },
+
+    {
+        "name": "Tablet Stylus Pen",
+        "slug": "tablet-stylus-pen",
+        "category": "Accessories",
+        "description": "Universal stylus pen for tablets",
+        "price": "35",
+        "discount_price": "30",
+        "stock": 120,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Color", "value": "Silver" }
+        ]
+    },
+    {
+        "name": "Gaming Headset RGB",
+        "slug": "gaming-headset-rgb",
+        "category": "Audio Accessories",
+        "description": "RGB gaming headset with surround sound",
+        "price": "85",
+        "discount_price": "75",
+        "stock": 90,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Color", "value": "Black" }
+        ]
+    },
+
+    {
+        "name": "Air Fryer XL",
+        "slug": "air-fryer-xl",
+        "category": "Kitchen Appliances",
+        "description": "Large capacity air fryer",
+        "price": "140",
+        "discount_price": "130",
+        "stock": 50,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Capacity", "value": "5L" }
+        ]
+    },
+    {
+        "name": "Smart Rice Cooker",
+        "slug": "smart-rice-cooker",
+        "category": "Kitchen Appliances",
+        "description": "Smart rice cooker with multiple modes",
+        "price": "90",
+        "discount_price": "80",
+        "stock": 70,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Capacity", "value": "2L" }
+        ]
+    },
+
+    {
+        "name": "Men's Sports Jacket",
+        "slug": "mens-sports-jacket",
+        "category": "Men's Clothing",
+        "description": "Lightweight sports jacket",
+        "price": "60",
+        "discount_price": "55",
+        "stock": 110,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Size", "value": "L" },
+            { "attribute": "Color", "value": "Black" }
+        ]
+    },
+    {
+        "name": "Women's Yoga Leggings",
+        "slug": "womens-yoga-leggings",
+        "category": "Women's Clothing",
+        "description": "Comfortable yoga leggings",
+        "price": "40",
+        "discount_price": "35",
+        "stock": 140,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Size", "value": "M" },
+            { "attribute": "Color", "value": "Purple" }
+        ]
+    },
+
+    {
+        "name": "Kids Cotton Hoodie",
+        "slug": "kids-cotton-hoodie",
+        "category": "Kids Clothing",
+        "description": "Soft cotton hoodie for kids",
+        "price": "30",
+        "discount_price": "28",
+        "stock": 130,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Size", "value": "28" },
+            { "attribute": "Color", "value": "Blue" }
+        ]
+    },
+
+    {
+        "name": "Face Serum Vitamin C",
+        "slug": "face-serum-vitamin-c",
+        "category": "Skincare",
+        "description": "Brightening vitamin C serum",
+        "price": "32",
+        "discount_price": "28",
+        "stock": 150,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Skin Type", "value": "All" }
+        ]
+    },
+    {
+        "name": "Hair Conditioner",
+        "slug": "hair-conditioner",
+        "category": "Hair Care",
+        "description": "Moisturizing hair conditioner",
+        "price": "18",
+        "discount_price": "15",
+        "stock": 160,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Ingredients", "value": "Keratin" }
+        ]
+    },
+
+    {
+        "name": "Camping Lantern",
+        "slug": "camping-lantern",
+        "category": "Camping",
+        "description": "Rechargeable LED camping lantern",
+        "price": "35",
+        "discount_price": "30",
+        "stock": 90,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Material", "value": "Plastic" }
+        ]
+    },
+    {
+        "name": "Dumbbell Set 10kg",
+        "slug": "dumbbell-set-10kg",
+        "category": "Fitness Equipment",
+        "description": "10kg adjustable dumbbell set",
+        "price": "55",
+        "discount_price": "50",
+        "stock": 80,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Color", "value": "Black" }
+        ]
+    },
+
+    {
+        "name": "Kids Puzzle Animals",
+        "slug": "kids-puzzle-animals",
+        "category": "Educational Toys",
+        "description": "Animal-themed puzzle for kids",
+        "price": "18",
+        "discount_price": "15",
+        "stock": 140,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Age Group", "value": "3+" }
+        ]
+    },
+    {
+        "name": "Strategy Board Game",
+        "slug": "strategy-board-game",
+        "category": "Board Games",
+        "description": "Fun strategy board game for families",
+        "price": "45",
+        "discount_price": "40",
+        "stock": 75,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Age Group", "value": "10+" }
+        ]
+    },
+
+    {
+        "name": "Car Seat Organizer",
+        "slug": "car-seat-organizer",
+        "category": "Car Accessories",
+        "description": "Organizer for car seats",
+        "price": "25",
+        "discount_price": "22",
+        "stock": 100,
+        "is_featured": false,
+        "attributes": [
+            { "attribute": "Material", "value": "Polyester" }
+        ]
+    },
+    {
+        "name": "Motorcycle Rain Cover",
+        "slug": "motorcycle-rain-cover",
+        "category": "Motorcycle Accessories",
+        "description": "Waterproof motorcycle rain cover",
+        "price": "30",
+        "discount_price": "27",
+        "stock": 85,
+        "is_featured": true,
+        "attributes": [
+            { "attribute": "Material", "value": "Nylon" }
+        ]
+    }
+]

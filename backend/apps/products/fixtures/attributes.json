@@ -1,0 +1,45 @@
+[
+    { "name": "Color", "slug": "color" },
+    { "name": "Storage", "slug": "storage" },
+    { "name": "RAM", "slug": "ram" },
+    { "name": "Brand", "slug": "brand" },
+
+    { "name": "Size", "slug": "size" },
+    { "name": "Material", "slug": "material" },
+    { "name": "Weight", "slug": "weight" },
+    { "name": "Dimensions", "slug": "dimensions" },
+
+    { "name": "Model", "slug": "model" },
+    { "name": "CPU", "slug": "cpu" },
+    { "name": "GPU", "slug": "gpu" },
+    { "name": "Battery Capacity", "slug": "battery_capacity" },
+    { "name": "Screen Size", "slug": "screen_size" },
+    { "name": "Screen Type", "slug": "screen_type" },
+    { "name": "Refresh Rate", "slug": "refresh_rate" },
+
+    { "name": "Operating System", "slug": "os" },
+    { "name": "Connectivity", "slug": "connectivity" },
+    { "name": "Wireless", "slug": "wireless" },
+    { "name": "Ports", "slug": "ports" },
+
+    { "name": "Water Resistance", "slug": "water_resistance" },
+    { "name": "Warranty", "slug": "warranty" },
+    { "name": "Country of Origin", "slug": "country_of_origin" },
+
+    { "name": "Pattern", "slug": "pattern" },
+    { "name": "Fit Type", "slug": "fit_type" },
+    { "name": "Gender", "slug": "gender" },
+    { "name": "Age Group", "slug": "age_group" },
+
+    { "name": "Capacity", "slug": "capacity" },
+    { "name": "Volume", "slug": "volume" },
+    { "name": "Energy Efficiency", "slug": "energy_efficiency" },
+
+    { "name": "Fragrance", "slug": "fragrance" },
+    { "name": "Ingredients", "slug": "ingredients" },
+    { "name": "Skin Type", "slug": "skin_type" },
+
+    { "name": "Edition", "slug": "edition" },
+    { "name": "Release Year", "slug": "release_year" },
+    { "name": "Compatibility", "slug": "compatibility" }
+]

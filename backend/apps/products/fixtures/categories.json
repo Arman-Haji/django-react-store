@@ -1,0 +1,57 @@
+[
+    { "name": "Electronics", "slug": "electronics" },
+    { "name": "Mobile Phones", "slug": "mobile-phones", "parent": "Electronics" },
+    { "name": "Smartphones", "slug": "smartphones", "parent": "Mobile Phones" },
+    { "name": "Feature Phones", "slug": "feature-phones", "parent": "Mobile Phones" },
+
+    { "name": "Laptops", "slug": "laptops", "parent": "Electronics" },
+    { "name": "Gaming Laptops", "slug": "gaming-laptops", "parent": "Laptops" },
+    { "name": "Ultrabooks", "slug": "ultrabooks", "parent": "Laptops" },
+    { "name": "Business Laptops", "slug": "business-laptops", "parent": "Laptops" },
+
+    { "name": "Tablets", "slug": "tablets", "parent": "Electronics" },
+    { "name": "Smart Watches", "slug": "smart-watches", "parent": "Electronics" },
+    { "name": "Cameras", "slug": "cameras", "parent": "Electronics" },
+
+    { "name": "Accessories", "slug": "accessories" },
+    { "name": "Phone Accessories", "slug": "phone-accessories", "parent": "Accessories" },
+    { "name": "Laptop Accessories", "slug": "laptop-accessories", "parent": "Accessories" },
+    { "name": "Audio Accessories", "slug": "audio-accessories", "parent": "Accessories" },
+
+    { "name": "Home Appliances", "slug": "home-appliances" },
+    { "name": "Kitchen Appliances", "slug": "kitchen-appliances", "parent": "Home Appliances" },
+    { "name": "Refrigerators", "slug": "refrigerators", "parent": "Kitchen Appliances" },
+    { "name": "Microwaves", "slug": "microwaves", "parent": "Kitchen Appliances" },
+    { "name": "Coffee Makers", "slug": "coffee-makers", "parent": "Kitchen Appliances" },
+
+    { "name": "Laundry Appliances", "slug": "laundry-appliances", "parent": "Home Appliances" },
+    { "name": "Washing Machines", "slug": "washing-machines", "parent": "Laundry Appliances" },
+    { "name": "Dryers", "slug": "dryers", "parent": "Laundry Appliances" },
+
+    { "name": "Fashion", "slug": "fashion" },
+    { "name": "Men's Clothing", "slug": "mens-clothing", "parent": "Fashion" },
+    { "name": "Women's Clothing", "slug": "womens-clothing", "parent": "Fashion" },
+    { "name": "Kids Clothing", "slug": "kids-clothing", "parent": "Fashion" },
+
+    { "name": "Shoes", "slug": "shoes", "parent": "Fashion" },
+    { "name": "Men's Shoes", "slug": "mens-shoes", "parent": "Shoes" },
+    { "name": "Women's Shoes", "slug": "womens-shoes", "parent": "Shoes" },
+
+    { "name": "Beauty & Personal Care", "slug": "beauty-care" },
+    { "name": "Skincare", "slug": "skincare", "parent": "Beauty & Personal Care" },
+    { "name": "Hair Care", "slug": "hair-care", "parent": "Beauty & Personal Care" },
+    { "name": "Makeup", "slug": "makeup", "parent": "Beauty & Personal Care" },
+
+    { "name": "Sports & Outdoors", "slug": "sports-outdoors" },
+    { "name": "Fitness Equipment", "slug": "fitness-equipment", "parent": "Sports & Outdoors" },
+    { "name": "Cycling", "slug": "cycling", "parent": "Sports & Outdoors" },
+    { "name": "Camping", "slug": "camping", "parent": "Sports & Outdoors" },
+
+    { "name": "Toys & Games", "slug": "toys-games" },
+    { "name": "Educational Toys", "slug": "educational-toys", "parent": "Toys & Games" },
+    { "name": "Board Games", "slug": "board-games", "parent": "Toys & Games" },
+
+    { "name": "Automotive", "slug": "automotive" },
+    { "name": "Car Accessories", "slug": "car-accessories", "parent": "Automotive" },
+    { "name": "Motorcycle Accessories", "slug": "motorcycle-accessories", "parent": "Automotive" }
+]
