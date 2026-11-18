@@ -83,3 +83,23 @@ class ProductAttribute(models.Model):
 
     def __str__(self):
         return f"{self.product.name} | {self.attribute.name}: {self.value}"
+
+
+class Banner(models.Model):
+    title = models.CharField(max_length=200, blank=True)
+    image = models.ImageField(upload_to='banners/')
+    link = models.CharField(max_length=500, blank=True, help_text='e.g. /category/all or full URL')
+    group = models.CharField(
+        max_length=50,
+        default='home_main',
+        help_text='home_main, home_secondary, ...',
+    )
+    order = models.PositiveIntegerField(default=0)
+    is_active = models.BooleanField(default=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['order', '-created_at']
+
+    def __str__(self):
+        return self.title or f'Banner {self.id}'

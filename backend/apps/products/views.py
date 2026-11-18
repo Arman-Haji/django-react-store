@@ -5,8 +5,8 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import SearchFilter, OrderingFilter
 
 from .filters import ProductFilter
-from .models import Product, Category, Attribute
-from .serializers import ProductListSerializer, ProductDetailSerializer, ProductWriteSerializer, CategorySerializer, AttributeWithValuesSerializer, AttributeSerializer
+from .models import Product, Category, Attribute, Banner
+from .serializers import ProductListSerializer, ProductDetailSerializer, ProductWriteSerializer, CategorySerializer, AttributeWithValuesSerializer, AttributeSerializer, BannerSerializer
 
 class ProductViewSet(viewsets.ModelViewSet):
 
@@ -126,3 +126,27 @@ class AttributeViewSet(viewsets.ModelViewSet):
         for child in Category.objects.filter(parent=category):
             ids.extend(self._get_all_category_ids(child))
         return ids
+
+
+class BannerViewSet(viewsets.ModelViewSet):
+    serializer_class = BannerSerializer
+    permission_classes = [IsAuthenticatedOrReadOnly]
+
+    def get_queryset(self):
+        user = self.request.user
+        qs = Banner.objects.all().order_by('order', '-created_at')
+
+
+        if not (user.is_authenticated and user.is_staff):
+            qs = qs.filter(is_active=True)
+
+        group = self.request.query_params.get('group')
+        if group:
+            qs = qs.filter(group=group)
+
+        return qs
+
+    def get_permissions(self):
+        if self.action in ('create', 'update', 'partial_update', 'destroy'):
+            return [IsAdminUser()]
+        return [IsAuthenticatedOrReadOnly()]

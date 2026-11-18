@@ -21,6 +21,9 @@ import AdminCategories from './components/admin/Categories';
 import AdminCategoryForm from './components/admin/CategoryForm';
 import AdminAttributes from './components/admin/Attributes';
 import AdminAttributeForm from './components/admin/AttributeForm';
+import AdminBanners from './components/admin/Banners';
+import AdminBannerForm from './components/admin/BannerForm';
+
 
 function App() {
   return (
@@ -31,12 +34,15 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
 
+
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
               <Route path="/profile" element={<Profile />} />
 
+
               <Route path="/category/:slug" element={<Category />} />
               <Route path="/product/:slug" element={<ProductDetail />} />
+
 
               <Route path="/admin" element={<AdminRoute><AdminDashboard /></AdminRoute>} />
               <Route path="/admin/products" element={<AdminRoute><AdminProducts /></AdminRoute>} />
@@ -50,6 +56,11 @@ function App() {
               <Route path="/admin/attributes" element={<AdminRoute><AdminAttributes /></AdminRoute>} />
               <Route path="/admin/attributes/new" element={<AdminRoute><AdminAttributeForm /></AdminRoute>} />
               <Route path="/admin/attributes/:slug/edit" element={<AdminRoute><AdminAttributeForm /></AdminRoute>} />
+
+
+              <Route path="/admin/banners" element={<AdminRoute><AdminBanners /></AdminRoute>} />
+              <Route path="/admin/banners/new" element={<AdminRoute><AdminBannerForm /></AdminRoute>} />
+              <Route path="/admin/banners/:id/edit" element={<AdminRoute><AdminBannerForm /></AdminRoute>} />
 
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>

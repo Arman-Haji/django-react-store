@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Category, Attribute, Product, ProductAttribute
+from .models import Category, Attribute, Product, ProductAttribute, Banner
 
 
 class CategorySerializer(serializers.ModelSerializer):
@@ -213,3 +213,23 @@ class ProductWriteSerializer(serializers.ModelSerializer):
                 ProductAttribute.objects.create(product=instance, **item)
 
         return instance
+
+
+class BannerSerializer(serializers.ModelSerializer):
+    image_url = serializers.SerializerMethodField()
+
+    class Meta:
+        model = Banner
+        fields = (
+            'id', 'title', 'image', 'image_url',
+            'link', 'group', 'order', 'is_active',
+        )
+        extra_kwargs = {
+            'image': {'required': False},
+        }
+
+    def get_image_url(self, obj):
+        request = self.context.get('request')
+        if obj.image and hasattr(obj.image, 'url') and request:
+            return request.build_absolute_uri(obj.image.url)
+        return None

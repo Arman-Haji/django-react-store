@@ -8,6 +8,7 @@ const ADMIN_LINKS = [
   { path: '/admin/products', label: 'Products' },
   { path: '/admin/categories', label: 'Categories' },
   { path: '/admin/attributes', label: 'Attributes' },
+  { path: '/admin/banners', label: 'Banners' },
 ];
 
 export default function AdminLayout({ children, title }) {
